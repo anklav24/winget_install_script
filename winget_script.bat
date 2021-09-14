@@ -11,6 +11,7 @@ ECHO anklav24@gmail.com
 ECHO 2020
 ECHO.
 ECHO "%~dp0"
+CD %~dp0
 ECHO.
 
 IF NOT EXIST "%~n0.txt" ECHO Perhaps the %~n0.txt is empty.
